@@ -208,3 +208,5 @@ main()
     console.log();
   
     console.log(`Transfering Vault Owner to ${rabbityieldfinance.vaultOwner}`)
+    await vault.transferOwnership(rabbityieldfinance.vaultOwner);
+    console.log();
