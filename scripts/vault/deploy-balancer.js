@@ -204,3 +204,7 @@ main()
   
     console.log();
     console.log("Running post deployment");
+  
+    console.log();
+  
+    console.log(`Transfering Vault Owner to ${rabbityieldfinance.vaultOwner}`)
