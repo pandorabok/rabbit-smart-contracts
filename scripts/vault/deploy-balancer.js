@@ -197,3 +197,7 @@ main()
     const strategy = await Strategy.deploy(...strategyConstructorArguments);
     await strategy.deployed();
   
+    // add this info to PR
+    console.log();
+    console.log("Vault:", vault.address);
+    console.log("Strategy:", strategy.address);
