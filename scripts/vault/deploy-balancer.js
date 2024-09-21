@@ -196,3 +196,4 @@ main()
     ];
     const strategy = await Strategy.deploy(...strategyConstructorArguments);
     await strategy.deployed();
+  
