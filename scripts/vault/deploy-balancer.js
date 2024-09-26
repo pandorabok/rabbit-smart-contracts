@@ -192,3 +192,7 @@ main()
       strategyParams.incentivesController,
       commonAddresses,
       strategyParams.nativeToWantRoute,
+      strategyParams.outputToNativeRoute
+    ];
+    const strategy = await Strategy.deploy(...strategyConstructorArguments);
+    await strategy.deployed();
