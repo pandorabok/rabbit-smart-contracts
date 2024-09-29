@@ -188,3 +188,7 @@ main()
   
     const strategyConstructorArguments = [
       strategyParams.dataProvider,
+      strategyParams.lendingPool,
+      strategyParams.incentivesController,
+      commonAddresses,
+      strategyParams.nativeToWantRoute,
