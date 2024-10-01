@@ -186,3 +186,5 @@ main()
       strategyParams.feeconfig
     ];
   
+    const strategyConstructorArguments = [
+      strategyParams.dataProvider,
