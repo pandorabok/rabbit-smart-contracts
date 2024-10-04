@@ -184,3 +184,5 @@ main()
       strategyParams.strategist,
       strategyParams.rabbityieldFeeRecipient,
       strategyParams.feeconfig
+    ];
+  
