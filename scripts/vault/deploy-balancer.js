@@ -175,3 +175,7 @@ main()
       vaultParams.delay,
     ];
     const vault = await Vault.deploy(...vaultConstructorArguments);
+    await vault.deployed();
+  
+    const commonAddresses = [
+      vault.address,
