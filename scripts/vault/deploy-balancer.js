@@ -173,3 +173,5 @@ main()
       vaultParams.mooName,
       vaultParams.mooSymbol,
       vaultParams.delay,
+    ];
+    const vault = await Vault.deploy(...vaultConstructorArguments);
