@@ -164,3 +164,5 @@ main()
   
     const [deployer] = await ethers.getSigners();
   
+    console.log("Deploying:", vaultParams.mooName);
+  
