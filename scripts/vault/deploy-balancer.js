@@ -162,3 +162,5 @@ main()
     const Vault = await ethers.getContractFactory(contractNames.vault);
     const Strategy = await ethers.getContractFactory(contractNames.strategy);
   
+    const [deployer] = await ethers.getSigners();
+  
