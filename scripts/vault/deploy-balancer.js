@@ -152,3 +152,4 @@ main()
       Object.values(vaultParams).some(v => v === undefined) ||
       Object.values(strategyParams).some(v => v === undefined) ||
       Object.values(contractNames).some(v => v === undefined)
+    ) {
