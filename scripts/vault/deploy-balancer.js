@@ -153,3 +153,6 @@ main()
       Object.values(strategyParams).some(v => v === undefined) ||
       Object.values(contractNames).some(v => v === undefined)
     ) {
+      console.error("one of config values undefined");
+      return;
+    }
