@@ -142,3 +142,5 @@ main()
     feeconfig: rabbityieldfinance.rabbityieldFeeConfig,
   };
   
+  const contractNames = {
+    vault: "RabbityieldVaultV6",
