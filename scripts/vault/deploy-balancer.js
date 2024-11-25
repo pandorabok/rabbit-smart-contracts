@@ -134,3 +134,7 @@ main()
     lendingPool: "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
     incentivesController:"0x929EC64c34a17401F460460D4B9390518E5B473e",
     nativeToWantRoute: [[ETH, USDC, false]],
+    outputToNativeRoute: [OP, ETH, false],
+    unirouter: velodrome.router,
+    keeper: rabbityieldfinance.keeper,
+    strategist: process.env.STRATEGIST_ADDRESS,
