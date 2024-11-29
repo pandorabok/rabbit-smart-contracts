@@ -132,3 +132,5 @@ main()
   const strategyParams = {
     dataProvider: "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654",
     lendingPool: "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+    incentivesController:"0x929EC64c34a17401F460460D4B9390518E5B473e",
+    nativeToWantRoute: [[ETH, USDC, false]],
