@@ -125,3 +125,6 @@ main()
   
   const vaultParams = {
     mooName: "Moo Aave Op USDC",
+    mooSymbol: "mooAaveOpUSDC",
+    delay: 21600,
+  };
