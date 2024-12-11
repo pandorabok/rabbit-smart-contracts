@@ -120,3 +120,8 @@ main()
       ETH: { address: ETH },
       USDC: { address: USDC },
       DAI: { address: DAI },
+    },
+  } = addressBook.optimism;
+  
+  const vaultParams = {
+    mooName: "Moo Aave Op USDC",
