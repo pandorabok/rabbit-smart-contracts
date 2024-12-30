@@ -106,3 +106,8 @@ main()
   .then(() => process.exit(0))
   .catch(error => {
     console.error(error);
+    process.exit(1);
+  });
+  import hardhat, { ethers, web3 } from "hardhat";
+  import { addressBook } from "blockchain-addressbook";
+  import { predictAddresses } from "../../utils/predictAddresses";
