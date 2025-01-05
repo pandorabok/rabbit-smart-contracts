@@ -101,3 +101,8 @@ async function main() {
   await vault.transferOwnership(rabbityieldfinance.vaultOwner);
   console.log();
 }
+
+main()
+  .then(() => process.exit(0))
+  .catch(error => {
+    console.error(error);
