@@ -89,3 +89,5 @@ async function main() {
 
   // add this info to PR
   console.log();
+  console.log("Vault:", vault.address);
+  console.log("Strategy:", strategy.address);
