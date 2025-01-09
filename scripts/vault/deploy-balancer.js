@@ -91,3 +91,8 @@ async function main() {
   console.log();
   console.log("Vault:", vault.address);
   console.log("Strategy:", strategy.address);
+
+  console.log();
+  console.log("Running post deployment");
+
+  console.log();
