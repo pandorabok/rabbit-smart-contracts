@@ -84,3 +84,8 @@ async function main() {
     strategyParams.nativeToWantRoute,
     strategyParams.outputToNativeRoute
   ];
+  const strategy = await Strategy.deploy(...strategyConstructorArguments);
+  await strategy.deployed();
+
+  // add this info to PR
+  console.log();
