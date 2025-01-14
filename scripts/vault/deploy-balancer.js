@@ -83,3 +83,4 @@ async function main() {
     commonAddresses,
     strategyParams.nativeToWantRoute,
     strategyParams.outputToNativeRoute
+  ];
