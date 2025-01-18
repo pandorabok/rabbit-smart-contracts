@@ -82,3 +82,4 @@ async function main() {
     strategyParams.incentivesController,
     commonAddresses,
     strategyParams.nativeToWantRoute,
+    strategyParams.outputToNativeRoute
