@@ -78,3 +78,4 @@ async function main() {
 
   const strategyConstructorArguments = [
     strategyParams.dataProvider,
+    strategyParams.lendingPool,
