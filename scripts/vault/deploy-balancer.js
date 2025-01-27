@@ -73,3 +73,8 @@ async function main() {
     strategyParams.keeper,
     strategyParams.strategist,
     strategyParams.rabbityieldFeeRecipient,
+    strategyParams.feeconfig
+  ];
+
+  const strategyConstructorArguments = [
+    strategyParams.dataProvider,
