@@ -69,3 +69,7 @@ async function main() {
 
   const commonAddresses = [
     vault.address,
+    strategyParams.unirouter,
+    strategyParams.keeper,
+    strategyParams.strategist,
+    strategyParams.rabbityieldFeeRecipient,
