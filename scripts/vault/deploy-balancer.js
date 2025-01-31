@@ -68,3 +68,4 @@ async function main() {
   await vault.deployed();
 
   const commonAddresses = [
+    vault.address,
