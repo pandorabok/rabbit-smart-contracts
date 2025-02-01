@@ -63,3 +63,8 @@ async function main() {
     vaultParams.mooName,
     vaultParams.mooSymbol,
     vaultParams.delay,
+  ];
+  const vault = await Vault.deploy(...vaultConstructorArguments);
+  await vault.deployed();
+
+  const commonAddresses = [
