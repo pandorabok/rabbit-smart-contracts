@@ -60,3 +60,6 @@ async function main() {
 
   const vaultConstructorArguments = [
     predictedAddresses.strategy,
+    vaultParams.mooName,
+    vaultParams.mooSymbol,
+    vaultParams.delay,
