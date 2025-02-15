@@ -50,3 +50,4 @@ async function main() {
   await hardhat.run("compile");
 
   const Vault = await ethers.getContractFactory(contractNames.vault);
+  const Strategy = await ethers.getContractFactory(contractNames.strategy);
