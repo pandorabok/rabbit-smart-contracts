@@ -45,3 +45,8 @@ async function main() {
   ) {
     console.error("one of config values undefined");
     return;
+  }
+
+  await hardhat.run("compile");
+
+  const Vault = await ethers.getContractFactory(contractNames.vault);
