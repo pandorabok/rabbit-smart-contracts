@@ -37,3 +37,4 @@ const contractNames = {
   strategy: "StrategyAaveSupplyOnlyOptimism",
 };
 
+async function main() {
