@@ -33,3 +33,7 @@ const strategyParams = {
 };
 
 const contractNames = {
+  vault: "RabbityieldVaultV6",
+  strategy: "StrategyAaveSupplyOnlyOptimism",
+};
+
