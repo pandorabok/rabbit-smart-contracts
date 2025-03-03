@@ -32,3 +32,4 @@ const strategyParams = {
   feeconfig: rabbityieldfinance.rabbityieldFeeConfig,
 };
 
+const contractNames = {
