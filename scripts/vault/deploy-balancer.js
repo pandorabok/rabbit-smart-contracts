@@ -28,3 +28,7 @@ const strategyParams = {
   unirouter: velodrome.router,
   keeper: rabbityieldfinance.keeper,
   strategist: process.env.STRATEGIST_ADDRESS,
+  rabbityieldFeeRecipient: rabbityieldfinance.rabbityieldFeeRecipient,
+  feeconfig: rabbityieldfinance.rabbityieldFeeConfig,
+};
+
