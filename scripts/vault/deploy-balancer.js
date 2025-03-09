@@ -27,3 +27,4 @@ const strategyParams = {
   outputToNativeRoute: [OP, ETH, false],
   unirouter: velodrome.router,
   keeper: rabbityieldfinance.keeper,
+  strategist: process.env.STRATEGIST_ADDRESS,
