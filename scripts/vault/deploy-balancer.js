@@ -16,3 +16,8 @@ const {
 const vaultParams = {
   mooName: "Moo Aave Op USDC",
   mooSymbol: "mooAaveOpUSDC",
+  delay: 21600,
+};
+
+const strategyParams = {
+  dataProvider: "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654",
