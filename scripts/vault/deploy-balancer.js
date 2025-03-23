@@ -15,3 +15,4 @@ const {
 
 const vaultParams = {
   mooName: "Moo Aave Op USDC",
+  mooSymbol: "mooAaveOpUSDC",
