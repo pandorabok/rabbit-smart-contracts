@@ -8,3 +8,8 @@ const {
     WBTC: { address: WBTC },
     OP: {address: OP},
     ETH: { address: ETH },
+    USDC: { address: USDC },
+    DAI: { address: DAI },
+  },
+} = addressBook.optimism;
+
