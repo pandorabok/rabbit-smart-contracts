@@ -7,3 +7,4 @@ const {
   tokens: {
     WBTC: { address: WBTC },
     OP: {address: OP},
+    ETH: { address: ETH },
