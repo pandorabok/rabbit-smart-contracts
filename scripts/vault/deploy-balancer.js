@@ -5,3 +5,5 @@ import { predictAddresses } from "../../utils/predictAddresses";
 const {
   platforms: { velodrome, rabbityieldfinance },
   tokens: {
+    WBTC: { address: WBTC },
+    OP: {address: OP},
